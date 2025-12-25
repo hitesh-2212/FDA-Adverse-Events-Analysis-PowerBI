@@ -76,4 +76,5 @@ Report volumes increase steadily over the years, with visible spikes after 2013,
 
 Although the overall growth rate is slightly negative (-0.43%), the serious outcome rate (~0.9%) confirms that high-impact cases still persist and require monitoring.
 
+<img width="1436" height="803" alt="Adverse_Events_Dashboard_Image" src="https://github.com/user-attachments/assets/de814e5c-d6ab-4de5-a3ad-deda0dc49230" />
 
