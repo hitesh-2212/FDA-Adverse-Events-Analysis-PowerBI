@@ -3,6 +3,8 @@ The CFSAN Adverse Event Reporting System (CAERS) is a critical surveillance data
 
 The primary objective of this analysis is to understand patterns and trends in reported adverse events, including how they vary across product categories, demographics, symptoms, and outcomes. By leveraging standardized MedDRA-coded terminology, the project aims to support regulatory monitoring, risk identification, and evidence-based decision-making that can ultimately contribute to improved consumer safety and public health outcomes.
 
+<img width="1080" height="566" alt="image" src="https://github.com/user-attachments/assets/da974e59-de41-48b1-9d77-c8060de8e38f" />
+
 ## 📊 Dataset Overview
 
 The dataset consists of FDA-submitted adverse event reports associated with food products, dietary supplements, and cosmetics. Each record represents a single report and includes detailed information about the product, patient, and event.
