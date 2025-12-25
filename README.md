@@ -1,94 +1,77 @@
-#🏥 FDA Adverse Event Reporting Dashboard (Power BI)
-📌 Project Overview
+## 🎯 Project Objective:-
+The CFSAN Adverse Event Reporting System (CAERS) is a critical surveillance database maintained by the FDA, capturing adverse event and product complaint reports related to foods, dietary supplements, and cosmetics. This project focuses on analyzing CAERS data spanning 2004 to Q2 2017 to uncover meaningful insights into product safety and public health risks.
 
-Ensuring patient safety requires continuous monitoring of adverse events associated with drugs, medical devices, and consumer products. This project analyzes data from the FDA Adverse Event Reporting System (FAERS) using Microsoft Power BI to identify meaningful trends, high-risk products, and vulnerable patient groups.
+The primary objective of this analysis is to understand patterns and trends in reported adverse events, including how they vary across product categories, demographics, symptoms, and outcomes. By leveraging standardized MedDRA-coded terminology, the project aims to support regulatory monitoring, risk identification, and evidence-based decision-making that can ultimately contribute to improved consumer safety and public health outcomes.
 
-The goal of this project is to build an interactive and insight-driven Power BI dashboard that enables healthcare analysts, regulators, and decision-makers to explore adverse event data efficiently and make informed, data-driven decisions.
+## 📊 Dataset Overview
 
-🎯 Business Objectives
+The dataset consists of FDA-submitted adverse event reports associated with food products, dietary supplements, and cosmetics. Each record represents a single report and includes detailed information about the product, patient, and event.
 
-Identify high-risk product categories linked to adverse events
+### Key Fields in the Dataset:
 
-Analyze adverse events across age groups and gender
+##### --> RA_Report # – Unique identifier for each adverse event report
 
-Understand trends in serious vs non-serious outcomes
+##### --> RA_CAERS Created Date – Date the report was recorded in CAERS
 
-Monitor reporting patterns over time
+##### --> AEC_Event Start Date – Date the adverse event began
 
-Support proactive healthcare safety and regulatory analysis
+##### --> PRI_Product Role – Indicates whether the product was a suspect or concomitant
 
-📊 Dataset Description
+##### --> PRI_Reported Brand/Product Name – Reported product name
 
-The dataset is sourced from the FDA Adverse Event Reporting System (FAERS) and includes thousands of records with the following attributes:
+##### --> PRI_FDA Industry Code & Name – FDA industry classification (e.g., Bakery Products, Ice Cream, Cosmetics)
 
-Patient demographics (Age, Gender)
+##### --> CI_Age at Adverse Event – Age of the affected individual
 
-Product category and product type
+##### --> CI_Age Unit – Age measurement unit (years, months, etc.)
 
-Reported symptoms
+##### --> CI_Gender – Gender of the individual
 
-Event outcomes (serious / non-serious)
+##### --> AEC_One Row Outcomes – Event outcomes such as hospitalization, ER visit, or non-serious illness
 
-Reporting year and trends
+##### --> SYM_One Row Coded Symptoms – MedDRA-coded symptoms associated with the event
 
-🛠️ Tools & Technologies
+## 📈 Data Preparation & Modeling Approach
 
-Microsoft Power BI
+Raw data was cleaned and standardized using Power BI Power Query
 
-Power Query for data cleaning and transformation
+Derived columns such as Age in Years, Event Start Date, and Report Created Date were created for consistent analysis
 
-DAX for calculated measures and KPIs
+A star schema data model was implemented to ensure efficient relationships and optimized performance
 
-Interactive visuals, slicers, and filters
+DAX measures were developed to calculate event counts, demographic distributions, and outcome frequencies
 
-🔄 Data Preparation
+## 🔍 Key Insights from the Dashboard
 
-Data preparation was performed in Power Query, including:
+#### High Reporting Volume: The dataset contains ~65K adverse event reports, indicating substantial consumer safety concerns across food, supplement, and cosmetic products.
 
-Handling missing and inconsistent values
+#### Demographic Risk Pattern:
 
-Standardizing product categories
+Females account for ~63% (41K) of reports, significantly higher than males (~30%), suggesting gender-specific exposure or reporting behavior.
 
-Grouping patient ages into meaningful ranges
+The median patient age is 52 years, with the 36–75 age groups contributing the highest number of adverse events.
 
-Removing duplicate and irrelevant records
+#### Industry-Level Concentration:
 
-Creating derived fields for analysis
+Vitamins, Minerals, Proteins & Supplements dominate reporting (~28K reports) and show a notable number of serious outcomes, making this the highest-risk industry segment.
 
-These steps ensured the dataset was clean, reliable, and analysis-ready.
+Cosmetics and certain food categories contribute fewer reports but are still associated with serious cases.
 
-📈 Dashboard Features
+#### Outcome Severity:
 
-The Power BI dashboard includes:
+Most reports are non-serious, but serious and fatal outcomes are consistently present across multiple industries, highlighting ongoing safety risks rather than isolated incidents.
 
-📌 KPIs for total adverse event reports
+#### Symptom Patterns:
 
-📊 Product-category-wise adverse event analysis
+A large variety of symptoms (5,549 unique symptoms) are reported, but a few dominate:
+Diarrhea, vomiting, nausea, and abdominal pain are the most common—indicating strong gastrointestinal impact across products.
 
-👥 Demographic breakdown by age group and gender
+#### Trend Over Time:
 
-⚠️ Serious vs non-serious outcome comparison
+Report volumes increase steadily over the years, with visible spikes after 2013, reflecting either increased product usage, better reporting awareness, or regulatory changes.
 
-📅 Time-based trend analysis
+#### Growth & Risk Indicators:
 
-🎛️ Interactive slicers for filtering by year, product type, age, and gender
+Although the overall growth rate is slightly negative (-0.43%), the serious outcome rate (~0.9%) confirms that high-impact cases still persist and require monitoring.
 
-🔍 Key Insights
 
-Drug- and cosmetic-related products account for a significant share of reported adverse events
-
-Older age groups show a higher frequency of serious outcomes
-
-Certain symptoms are repeatedly associated with specific product categories
-
-Reporting trends fluctuate over time, indicating changes in product usage or reporting behavior
-
-💼 Business Impact
-
-Supports regulatory monitoring and safety assessment
-
-Helps identify vulnerable patient populations
-
-Enables faster detection of potential risk patterns
-
-Demonstrates the power of dashboard-driven healthcare analytics
