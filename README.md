@@ -43,34 +43,34 @@ DAX measures were developed to calculate event counts, demographic distributions
 
 ## 🔍 Key Insights from the Dashboard
 
-#### High Reporting Volume: The dataset contains ~65K adverse event reports, indicating substantial consumer safety concerns across food, supplement, and cosmetic products.
+#### 1:- High Reporting Volume: The dataset contains ~65K adverse event reports, indicating substantial consumer safety concerns across food, supplement, and cosmetic products.
 
-#### Demographic Risk Pattern:
+#### 2:- Demographic Risk Pattern:
 
 Females account for ~63% (41K) of reports, significantly higher than males (~30%), suggesting gender-specific exposure or reporting behavior.
 
 The median patient age is 52 years, with the 36–75 age groups contributing the highest number of adverse events.
 
-#### Industry-Level Concentration:
+#### 3:- Industry-Level Concentration:
 
 Vitamins, Minerals, Proteins & Supplements dominate reporting (~28K reports) and show a notable number of serious outcomes, making this the highest-risk industry segment.
 
 Cosmetics and certain food categories contribute fewer reports but are still associated with serious cases.
 
-#### Outcome Severity:
+#### 4:- Outcome Severity:
 
 Most reports are non-serious, but serious and fatal outcomes are consistently present across multiple industries, highlighting ongoing safety risks rather than isolated incidents.
 
-#### Symptom Patterns:
+#### 5:- Symptom Patterns:
 
 A large variety of symptoms (5,549 unique symptoms) are reported, but a few dominate:
 Diarrhea, vomiting, nausea, and abdominal pain are the most common—indicating strong gastrointestinal impact across products.
 
-#### Trend Over Time:
+#### 6:- Trend Over Time:
 
 Report volumes increase steadily over the years, with visible spikes after 2013, reflecting either increased product usage, better reporting awareness, or regulatory changes.
 
-#### Growth & Risk Indicators:
+#### 7:- Growth & Risk Indicators:
 
 Although the overall growth rate is slightly negative (-0.43%), the serious outcome rate (~0.9%) confirms that high-impact cases still persist and require monitoring.
 
