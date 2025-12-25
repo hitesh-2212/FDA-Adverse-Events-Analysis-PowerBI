@@ -1,11 +1,10 @@
-<img width="1080" height="566" alt="image" src="https://github.com/user-attachments/assets/da974e59-de41-48b1-9d77-c8060de8e38f" />
 <h1 align="center">📊 FDA Adverse Event Analysis (CAERS)</h1>
 <p align="center">
   <b>Power BI Dashboard | Public Health & Product Safety Analytics</b>
 </p>
 
 <hr>
-
+<img width="1080" height="566" alt="image" src="https://github.com/user-attachments/assets/da974e59-de41-48b1-9d77-c8060de8e38f" />
 <h2>🎯 Project Objective</h2>
 <p>
 The <b>CFSAN Adverse Event Reporting System (CAERS)</b> is a critical surveillance
@@ -118,7 +117,4 @@ product, patient, and adverse event.
   <i>📌 This project demonstrates how analytics can transform raw regulatory data into actionable public health insights.</i>
 </p>
 
-
-
-<img width="1436" height="803" alt="Adverse_Events_Dashboard_Image" src="https://github.com/user-attachments/assets/de814e5c-d6ab-4de5-a3ad-deda0dc49230" />
 
